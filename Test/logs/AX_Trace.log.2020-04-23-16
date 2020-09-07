@@ -1,0 +1,213 @@
+16:26:43.084 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+16:26:43.586 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+16:26:46.761 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+16:26:49.816 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+16:26:51.455 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+16:26:51.459 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=50
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=25
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=150
+	CumulativeConnectionWaitTime=50
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=50
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+16:26:51.460 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+16:26:51.668 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+16:26:51.669 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:26:52.614 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+16:26:52.620 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+16:26:52.627 ERROR [StandardEncryptionService:main] 	Encryptor 986 decrypt failure.
+javax.crypto.BadPaddingException: pad block corrupted
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher$BufferedGenericBlockCipher.doFinal(Unknown Source)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher.engineDoFinal(Unknown Source)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2165)
+	at com.authentic.secure.encrypt.BCAESEncryptorCBC.decrypt(BCAESEncryptorCBC.java:235)
+	at com.authentic.secure.encrypt.BCAESEncryptorCBC.decrypt(BCAESEncryptorCBC.java:271)
+	at com.authentic.secure.StandardEncryptionService.decrypt(StandardEncryptionService.java:311)
+	at com.authentic.secure.SecurityManager.decrypt(SecurityManager.java:822)
+	at com.authentic.secure.SecureString.getClear(SecureString.java:283)
+	at card.GetCard.main(GetCard.java:14)
+16:26:52.631 INFO  [AlaricLoggingOutputStream:main] 	Clear ACN : 9D22050B514B50EC272A10D715C3F584
+16:26:52.631 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:26:52.632 INFO  [AlaricLoggingOutputStream:main] 	Clear ACN : 9D22050B514B50EC272A10D715C3F584
+16:26:52.633 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:33:40.489 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+16:33:41.075 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+16:33:44.122 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+16:33:46.950 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+16:33:48.828 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+16:33:48.831 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=50
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=25
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=100
+	CumulativeConnectionWaitTime=50
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=50
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+16:33:48.831 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+16:33:48.976 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+16:33:48.978 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:33:49.640 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+16:33:49.647 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+16:33:49.656 ERROR [StandardEncryptionService:main] 	Encryptor 986 decrypt failure.
+javax.crypto.BadPaddingException: pad block corrupted
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher$BufferedGenericBlockCipher.doFinal(Unknown Source)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher.engineDoFinal(Unknown Source)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2165)
+	at com.authentic.secure.encrypt.BCAESEncryptorCBC.decrypt(BCAESEncryptorCBC.java:235)
+	at com.authentic.secure.encrypt.BCAESEncryptorCBC.decrypt(BCAESEncryptorCBC.java:271)
+	at com.authentic.secure.StandardEncryptionService.decrypt(StandardEncryptionService.java:311)
+	at com.authentic.secure.SecurityManager.decrypt(SecurityManager.java:822)
+	at com.authentic.secure.SecureString.getClear(SecureString.java:283)
+	at card.GetCard.main(GetCard.java:14)
+16:33:49.660 INFO  [AlaricLoggingOutputStream:main] 	Clear ACN : 9D22050B514B50EC272A10D715C3F584
+16:33:49.661 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:33:49.662 INFO  [AlaricLoggingOutputStream:main] 	Clear ACN : 9D22050B514B50EC272A10D715C3F584
+16:33:49.663 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:49:27.466 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+16:49:28.146 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+16:49:32.172 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+16:49:35.481 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+16:49:37.693 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+16:49:37.697 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=0
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=0
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=150
+	CumulativeConnectionWaitTime=0
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=0
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+16:49:37.698 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+16:49:37.893 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+16:49:37.895 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:49:38.769 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+16:49:38.781 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+16:49:38.793 ERROR [StandardEncryptionService:main] 	Encryptor 986 decrypt failure.
+javax.crypto.BadPaddingException: pad block corrupted
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher$BufferedGenericBlockCipher.doFinal(Unknown Source)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher.engineDoFinal(Unknown Source)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2165)
+	at com.authentic.secure.encrypt.BCAESEncryptorCBC.decrypt(BCAESEncryptorCBC.java:235)
+	at com.authentic.secure.encrypt.BCAESEncryptorCBC.decrypt(BCAESEncryptorCBC.java:271)
+	at com.authentic.secure.StandardEncryptionService.decrypt(StandardEncryptionService.java:311)
+	at com.authentic.secure.SecurityManager.decrypt(SecurityManager.java:822)
+	at com.authentic.secure.SecureString.getClear(SecureString.java:283)
+	at card.GetCard.main(GetCard.java:14)
+16:49:38.798 INFO  [AlaricLoggingOutputStream:main] 	Clear ACN : 9D22050B514B50EC272A10D715C3F584
+16:49:38.800 INFO  [AlaricLoggingOutputStream:main] 	
+
+16:49:38.801 INFO  [AlaricLoggingOutputStream:main] 	Clear ACN : 9D22050B514B50EC272A10D715C3F584
+16:49:38.802 INFO  [AlaricLoggingOutputStream:main] 	
+

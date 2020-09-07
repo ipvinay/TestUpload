@@ -1,0 +1,270 @@
+19:56:58.564 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+19:56:58.903 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+19:57:01.022 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+19:57:03.051 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+19:57:04.433 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+19:57:04.436 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=0
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=0
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=100
+	CumulativeConnectionWaitTime=0
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=0
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+19:57:04.437 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+19:57:04.547 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+19:57:04.548 INFO  [AlaricLoggingOutputStream:main] 	
+
+19:57:05.039 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+19:57:05.044 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+19:57:23.445 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+19:57:23.978 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+19:57:26.597 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+19:57:28.516 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+19:57:29.848 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+19:57:29.850 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=50
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=25
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=50
+	CumulativeConnectionWaitTime=50
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=50
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+19:57:29.851 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+19:57:29.957 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+19:57:29.958 INFO  [AlaricLoggingOutputStream:main] 	
+
+19:57:30.457 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+19:57:30.462 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+19:57:39.665 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+19:57:40.210 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+19:57:42.672 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+19:57:44.622 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+19:57:45.960 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+19:57:45.962 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=0
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=0
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=100
+	CumulativeConnectionWaitTime=0
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=0
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+19:57:45.963 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+19:57:46.066 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+19:57:46.068 INFO  [AlaricLoggingOutputStream:main] 	
+
+19:57:46.619 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+19:57:46.627 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+19:57:51.416 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+19:57:51.805 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+19:57:54.044 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+19:57:55.962 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+19:57:57.218 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+19:57:57.221 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=0
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=0
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=100
+	CumulativeConnectionWaitTime=0
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=0
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+19:57:57.221 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+19:57:57.324 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+19:57:57.325 INFO  [AlaricLoggingOutputStream:main] 	
+
+19:57:57.829 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+19:57:57.834 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
+19:59:29.169 INFO  [LoggingPropertiesLoader:main] 	Alaric logger initialised successfully
+19:59:29.484 INFO  [DBConnectionMgr:main] 	Using database properties from file file:/E:/OneDrive%20-%20NCR%20Corporation/Authentic_NCR/CC_BCS/bcs/bcs-package/src/main/runtime/resources/db_properties.xml
+19:59:32.668 INFO  [UniversalConnectionPoolManager:main] 	Universal connection pool created: authentic
+19:59:34.728 INFO  [UniversalConnectionPoolManager:main] 	
+	Database Properties:
+		Oracle
+		Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+		Driver: Oracle JDBC driver 12.2.0.1.0
+		JDBC Version: 4.2
+	Connection Properties:
+		connectionCachingEnabled=true
+		javax.net.ssl.trustStore=E:\OneDrive - NCR Corporation\Authentic_NCR\CC_BCS\bcs\bcs-package\src\main\runtime\keystores\ORACLE.trusted.keystore
+		v$session.program=~vs185166~WINVS185166-RAE
+		oracle.net.crypto_checksum_client=REQUIRED
+		javax.net.ssl.trustStorePassword=*****************[ENCRYPTED]
+		v$session.terminal=WINVS185166-RAE
+		v$session.osuser=vs185166
+19:59:36.063 INFO  [UniversalConnectionPoolManager:main] 	Long running connection pool [authentic.lrcp] starting 
+19:59:36.067 INFO  [UniversalConnectionPoolManager:main] 	ConnectionPool [authentic] State [Running]
+	AvailableConnectionsCount=4
+	BorrowedConnectionsCount=1
+	TotalConnectionsCount=5
+	ConnectionsCreatedCount=5
+	ConnectionsClosedCount=0
+	AbandonedConnectionsCount=0
+	LabeledConnectionsCount=0
+	PendingRequestsCount=0
+	RemainingPoolCapacityCount=95
+	PeakConnectionsCount=1
+	PeakConnectionWaitTime=0
+	AverageBorrowedConnectionsCount=1
+	AverageConnectionWaitTime=0
+	CumulativeConnectionBorrowedCount=2
+	CumulativeConnectionReturnedCount=1
+	CumulativeConnectionUseTime=100
+	CumulativeConnectionWaitTime=0
+	CumulativeSuccessfulConnectionWaitCount=2
+	CumulativeSuccessfulConnectionWaitTime=0
+	CumulativeFailedConnectionWaitCount=0
+	CumulativeFailedConnectionWaitTime=0
+SuccessfulAffinityBasedBorrowCount=0
+	FailedAffinityBasedBorrowCount=0
+	SuccessfulRCLBBasedBorrowCount=0
+	FailedRCLBBasedBorrowCount=0
+	ConnectionRepurposeCount=0
+	(FCFProcessingInfo=)
+(FCFProcessingInfoProcessedOnly=)
+LongRunningConnectionPool [authentic.lrcp] State [Running]
+19:59:36.067 INFO  [DBConnectionMgr:main] 	Number of databases configured: 1
+19:59:36.186 INFO  [AlaricLoggingOutputStream:main] 	##### System properties loaded from system.properties
+19:59:36.187 INFO  [AlaricLoggingOutputStream:main] 	
+
+19:59:36.693 INFO  [SecureEncryptorManager:main] 	Encryptor 1 created : Clear passthrough encryptor.
+19:59:36.696 INFO  [SecureEncryptorManager:main] 	Encryptor 986 created : BC AES CBC Encryptor : encryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] decryptor[provider=BC,version=1.58,algorithm=AES/CBC/PKCS5PADDING,block=16] key[algorithm=AES,length=256].
